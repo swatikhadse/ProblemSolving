@@ -7,7 +7,7 @@ Observations:
 3 return N count
  */
 
-//Approach 1: using brute force TC==O(N) SC==O(N)
+//Approach 1: using brute force TC==O(N) SC==O(1)
 package Arrays;
 
 public class MaxElement {

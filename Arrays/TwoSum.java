@@ -3,7 +3,7 @@ package Arrays;
 Given N array elements Check if there exists a pair i, j such that a[i]+a[j]=k and i!=j.
  */
 
-//Approach 1: using brute force TC==O(N2)
+//Approach 1: using brute force TC==O(N2) SC==O(1)
 
 public class TwoSum {
     static int A[] = {2, 4, -3, 7};
