@@ -4,11 +4,11 @@ Given N array elements, Count the number of elements having at least 1 element g
 Observations:
 1. for max element there can't be any element greater than it
 2 find count of man elements in the Array count
-3 return N count
+3 return (N-count)
  */
 
 //Approach 1: using brute force TC==O(N) SC==O(1)
-package Arrays;
+package Arrays_1;
 
 public class MaxElement {
 
@@ -21,6 +21,8 @@ public class MaxElement {
         System.out.println("max element:: " + maxValue(A));
         //To count max element frequency
         System.out.println("frequency of max element:: " +frequency(A));
+        //Total possible elements
+        System.out.println("Number of elements:: " + (A.length-count));
     }
 
     public static int maxValue(int A[]) {

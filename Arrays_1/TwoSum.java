@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_1;
 /*
 Given N array elements Check if there exists a pair i, j such that a[i]+a[j]=k and i!=j.
  */
